@@ -1,0 +1,134 @@
+body {
+    background-color: rgb(178, 203, 255);
+}
+
+#bar {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    background-color: #789DBC;
+
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+
+.btn-login {
+    background-color: #fdcece;
+    width: 100px;
+    height: 35px;
+    font-size: 20px;
+    padding: 5px;
+    line-height: 0.8;
+    align-self: center;
+
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.btn-login:hover {
+    background-color: rgb(112, 112, 255);
+    color: white;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.btn-signup {
+    background-color: #fdcece;
+    width: 100px;
+    height: 35px;
+    font-size: 20px;
+    padding: 5px;
+    line-height: 0.8;
+    align-self: center;
+
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.btn-signup:hover {
+    background-color: rgb(112, 112, 255);
+    color: white;
+
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+#nav {
+    margin-top: 10px;
+    width: 100%;
+}
+
+#myInput {
+    width: 350px;
+    background-color: #caf0ff;
+
+    border: 3px solid #789DBC;
+    margin-right: 1px
+}
+
+.btn-search {
+    background-color: rgb(250, 206, 64);
+    border: 3px solid #9b955e;
+    margin-top: -5px;
+}
+
+.autocomplete {
+    position: relative;
+    display: inline-block;
+}
+  
+  
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+.autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+}
+.autocomplete-items div:hover {
+    background-color: #e9e9e9;
+}
+
+.autocomplete-active {
+    background-color: DodgerBlue !important;
+    color: #ffffff;
+}
+
+
+.pet-card {
+    margin-top: 20px;
+    width: 100%;
+    height: 400px;
+    background-color: white ;
+}
+
+img {
+    margin: 15px;
+    object-fit:cover;
+    width: 90%;
+    height: 50%;
+}
+
+.w-100 {
+    height: 600px;
+}
+
