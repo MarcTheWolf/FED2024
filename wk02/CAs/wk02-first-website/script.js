@@ -20,7 +20,7 @@ const searchIS = {
         },
 
         {
-            "Name" : "No Info",
+            "Name" : "YuXuan",
             "Gender" : "-",
             "Age" : "-",
             "Coat" : "-",

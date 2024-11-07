@@ -3,6 +3,10 @@
 
 .logo {
     position: absolute;
-    
+    top: -45px;
+    left: 125px;
 }
 
+.card {
+    position: relative;
+}

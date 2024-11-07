@@ -77,9 +77,14 @@ body {
 }
 
 .btn-search {
-    background-color: rgb(250, 206, 64);
-    border: 3px solid #9b955e;
+    background-color: #ffa582;
+    border: 3px solid #bb775c;
     margin-top: -5px;
+}
+
+.btn-search:hover {
+    background-color: #ffbfa6;
+    border: 3px solid #a5867a;
 }
 
 .autocomplete {
