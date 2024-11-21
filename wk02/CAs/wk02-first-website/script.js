@@ -135,8 +135,8 @@ function autocomplete(inp, arr) {
   
   function displayResult(breed) {
       if (searches.includes(breed)) {
-        html = `<div class="row text-center result-title">
-                <u><h2>${breed}</h2></u>
+        let html = `<div class="row text-center result-title"> 
+        <u><h2>${breed}</h2></u>
             </div>
             <div class="row">`
             for (const i in searchIS[breed]) {
